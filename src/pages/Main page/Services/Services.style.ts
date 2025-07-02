@@ -20,6 +20,24 @@ h2 {
     grid-template-rows: repeat(2, 1fr);
     gap: 30px;
 }
+
+/* scroll-animation.css */
+.fade-animation {
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+
+.fade-show {
+  opacity: 1;
+}
+
+.fade-delay-0 { transition-delay: 0s; }
+.fade-delay-1 { transition-delay: 0.15s; }
+.fade-delay-2 { transition-delay: 0.3s; }
+.fade-delay-3 { transition-delay: 0.45s; }
+.fade-delay-4 { transition-delay: 0.6s; }
+.fade-delay-5 { transition-delay: 0.75s; }
+
 `;
 
 export const StyleServiceCard = styled.div`

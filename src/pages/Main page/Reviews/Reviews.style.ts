@@ -15,6 +15,22 @@ h2 {
     display: flex;
     gap: 30px;
 }
+
+.review-animation {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.review-show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.review-delay-0 { transition-delay: 0s; }
+.review-delay-1 { transition-delay: 0.2s; }
+.review-delay-2 { transition-delay: 0.4s; }
+
 `;
 
 

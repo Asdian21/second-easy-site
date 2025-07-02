@@ -4,7 +4,6 @@ import { Footer } from "./Footer/Footer";
 import { StyleMainPage } from "./MainPage.style";
 import { Numbers } from "./Numbers/Numbers";
 import { Partners } from "./Partners/Partners";
-import { Portfolio } from "./Portfolio/Portfolio";
 import { Question } from "./Question/Question";
 import { Request } from "./Request/Request";
 import { Reviews } from "./Reviews/Reviews";
@@ -20,7 +19,6 @@ export const MainPage = () => {
       <AnimatedBlock><SectionTwo /></AnimatedBlock>
       <AnimatedBlock><Request /></AnimatedBlock>
       <AnimatedBlock><Services /></AnimatedBlock>
-      <AnimatedBlock><Portfolio /></AnimatedBlock>
       <AnimatedBlock><Question /></AnimatedBlock>
       <AnimatedBlock><Partners /></AnimatedBlock>
       <AnimatedBlock><Reviews /></AnimatedBlock>

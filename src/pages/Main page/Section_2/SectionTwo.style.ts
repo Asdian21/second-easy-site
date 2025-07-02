@@ -20,6 +20,22 @@ export const StyleSectionTwo = styled.div`
     display: flex;
     gap: 30px;
   }
+  /* scroll-animation.css */
+.card-animation {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.card-show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.card-delay-0 { transition-delay: 0s; }
+.card-delay-1 { transition-delay: 0.2s; }
+.card-delay-2 { transition-delay: 0.4s; }
+
 `;
 
 export const ProjectCard = styled.div`

@@ -12,6 +12,24 @@ export const StyleNumbers = styled.div`
   top: -150px;
   left: 405px;
   background-color: rgba(247, 247, 247, 1);
+
+  /* scroll-animation.css */
+.element-animation {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.element-show {
+  opacity: 1;
+  transform: translateY(0%);
+}
+
+.element-show-delay-0 { transition-delay: 0.2s; }
+.element-show-delay-1 { transition-delay: 0.4s; }
+.element-show-delay-2 { transition-delay: 0.6s; }
+.element-show-delay-3 { transition-delay: 0.8s; }
+
 `;
 
 export const NumbersItem = styled.div`
